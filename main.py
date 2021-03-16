@@ -10,7 +10,7 @@ def main():
     originFilePath = os.path.join(MODELPATH, "Default")
     newFilePath = os.path.join(MODELPATH, "Calib_V1")
 
-    # 
+    #
     SwatStart(
         modelPath=MODELPATH, originFilePath=originFilePath, newFilePath=newFilePath
     )
